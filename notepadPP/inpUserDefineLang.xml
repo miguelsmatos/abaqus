@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Abaqus" ext="inp" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="yes" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="yes" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="yes" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00** 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">, =</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">*PART *ASSEMBLY *INSTANCE *STEP</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">&quot;*END PART&quot; *END ASSEMBLY&quot; &quot;*END INSTANCE&quot; &quot;*END STEP&quot;</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">&quot;*PROPERTY TABLE TYPE&quot;</Keywords>
+            <Keywords name="Keywords2">*ACOUSTIC *ADAPTIVE *ADJUST *AMPLITUDE *ANISOTROPIC *ANNEAL *AQUA *ASSEMBLY *ASYMMETRIC-AXISYMMETRIC *AXIAL *BASE *BASELINE *BEAM *BIAXIAL *BLOCKAGE *BOND *BOUNDARY *BRITTLE *BUCKLE *BUCKLING *BULK *C *CAP *CAPACITY *CAST *CAVITY *CECHARGE *CECURRENT *CENTROID *CFD *CFILM *CFLOW *CFLUX *CHANGE *CLAY *CLEARANCE *CLOAD *CO-SIMULATION *COHESIVE &quot;*COHESIVE BEHAVIOR&quot; *COMBINED *COMPLEX *CONCRETE *CONDUCTIVITY *CONNECTOR *CONSTRAINT *CONTACT &quot;*CONTACT CONTROLS&quot; &quot;*CONTACT OUTPUT&quot; &quot;*CONTACT PAIR&quot; *CONTOUR *CONTROLS *CONWEP *CORRELATION *COUPLED *COUPLING *CRADIATE *CRUSHABLE *CYCLED *CYCLIC *D *DAMAGE &quot;*DAMAGE EVOLUTION&quot; &quot;*DAMAGE INITIATION&quot; &quot;*DAMAGE STABILIZATION&quot; *DAMPING *DASHPOT *DEBOND *DECHARGE *DECURRENT *DEFORMATION *DENSITY *DETONATION *DFLOW *DFLUX *DIAGNOSTICS *DIELECTRIC *DIFFUSIVITY *DIRECT *DISPLAY *DISTRIBUTING *DISTRIBUTION &quot;*DISTRIBUTION TABLE&quot; *DLOAD *DRAG *DRUCKER *DSECHARGE *DSECURRENT *DSFLOW *DSFLUX *DSLOAD *DYNAMIC *EL &quot;*EL PRINT&quot; *ELASTIC *ELCOPY *ELECTRICAL *ELECTROMAGNETIC *ELEMENT &quot;*ELEMENT OUTPUT&quot; *ELGEN *ELSET *EMBEDDED *EMISSIVITY *END &quot;*END ASSEMBLY&quot; &quot;*END PART&quot; &quot;*END STEP&quot; *ENERGY *ENRICHMENT *EOS *EPJOINT *EQUATION *EULERIAN *EXPANSION *EXTREME *FABRIC *FAIL *FAILURE *FASTENER *FIELD *FILE *FILM *FILTER *FIXED *FLOW *FOUNDATION *FRACTURE *FRAME *FREQUENCY *FRICTION *GAP *GAS *GASKET *GEL *GEOSTATIC *GLOBAL *HEADING *HEAT *HEATCAP *HOURGLASS *HYPERELASTIC *HYPERFOAM *HYPOELASTIC *HYSTERESIS *IMPEDANCE *IMPERFECTION *IMPORT *INCIDENT *INCLUDE *INCREMENTATION *INELASTIC *INITIAL *INSTANCE *INTEGRATED *INTERFACE *ITS *JOINT *JOINTED *JOULE *KAPPA *KINEMATIC *LATENT *LOAD *LOADING *LOW *M1 *M2 *MAGNETIC *MAP *MASS *MATRIX *MEDIA *MEMBRANE *MODAL *MODEL *MOHR *MOISTURE *MOLECULAR *MONITOR *MOTION *MPC *MULLINS *NCOPY *NFILL *NGEN *NMAP *NO *NODAL *NODE &quot;*NODE OUTPUT&quot; *NONSTRUCTURAL *NORMAL *NSET *ORIENTATION *ORNL *OUTPUT *PARAMETER *PART *PERIODIC *PERMEABILITY *PHYSICAL *PIEZOELECTRIC *PIPE-SOIL *PLANAR *PLASTIC *POROUS *POST *POTENTIAL *PRE-TENSION *PREPRINT *PRESSURE *PRESTRESS *PRINT *PSD- *RADIATE *RADIATION *RANDOM *RATE *RATIOS *REACTION *REBAR *REFLECTION *RELEASE *RESPONSE *RESTART *RETAINED *RIGID *ROTARY *SECTION *SELECT *SFILM *SFLOW *SHEAR *SHELL &quot;*SHELL SECTION&quot; *SIMPEDANCE *SIMPLE *SLIDE *SLOAD *SOILS *SOLID *SOLUBILITY *SOLUTION *SOLVER *SORPTION *SPECIFIC *SPECTRUM *SPRING *SRADIATE *STATIC *STEADY *STEP *SUBCYCLING *SUBMODEL *SUBSTRUCTURE *SURFACE &quot;*SURFACE BEHAVIOR&quot; *SWELLING *SYMMETRIC *SYSTEM *TABLE *TEMPERATURE *TENSILE *TENSION *THERMAL *TIE *TIME *TORQUE *TRACER *TRANSFORM *TRANSPORT *TRANSVERSE &quot;*TRANSVERSE SHEAR&quot; &quot;*TRANSVERSE SHEAR STIFFFNES *TRIAXIAL *TRS *UEL *UNDEX *UNIAXIAL *UNLOADING *VARIABLE *VIEWFACTOR *VISCO *VISCOELASTIC *VISCOSITY *VISCOUS *VOID *VOLUMETRIC *WAVE *WIND</Keywords>
+            <Keywords name="Keywords3">*MATERIAL</Keywords>
+            <Keywords name="Keywords4">B21 B21H B22 B22H B23 B23H B31 B31H B31OS B31OSH B32 B32H B32OS B32OSH B33 B33H B34 C3D10 C3D10E C3D10H C3D10M C3D10MH C3D15 C3D15E C3D15H C3D15V C3D15VH C3D20 C3D20E C3D20H C3D20HT C3D20P C3D20PH C3D20R C3D20RE C3D20RHT C3D20RP C3D20RPH C3D20RT C3D20T C3D27 C3D27H C3D27R C3D27RH C3D4 C3D4E C3D4H C3D6 C3D6E C3D6H C3D8 C3D8E C3D8H C3D8HT C3D8I C3D8IH C3D8P C3D8PH C3D8R C3D8RH C3D8T CAX3 CAX3H CAX4 CAX4H CAX4I CAX4IH CAX4R CAX4RH CAX6 CAX6H CAX6M CAX6MH CONN2D2 CONN3D2 CPE3 CPE3H CPE4 CPE4H CPE4R CPE6M CPS3 CPS4R CPS6M DC3D10 DC3D10E DC3D15 DC3D15E DC3D20 DC3D20E DC3D4 DC3D4E DC3D6 DC3D6E DC3D8 DC3D8E DCC3D8 DCC3D8D DS3 DS4 DS6 DS8 F2D2 F3D3 F3D4 FLINK GK3D6 GK3D8 M3D3 M3D4 M3D4R M3D6 M3D8 M3D8R M3D9 M3D9R MAX1 MAX2 MGAX1 MGAX2 PIPE21 PIPE21H PIPE22 PIPE22H PIPE31 PIPE31H PIPE32 PIPE32H R3D3 R3D4 S3 S3R S4 S4R S4R5 S8R S8R5 S8RT S9R5 SAX1 SAX2 SPRING1 SPRINGA STRI3 STRI35 STRI65 T2D2 T2D2H T2D3 T2D3H T3D2 T3D2H T3D3 T3D3H</Keywords>
+            <Keywords name="Keywords5">ADJUST ALLSECTIONPTS AMPLITUDE ANGLE COMPOSITE CONSTANTS= CONTACT COORD2D COORD3D CRITERION DEFINITION DEPENDENCIES DIRECT DIRECTION DIRECTIONS ECHO ELIGIBILITY ELSET FIELD= FREQUENCY GENERATE HISTORY INC INPUT INSTANCE INTERACTION INTERNAL LAYUP LOCATION MASTER MATERIAL&quot;MIXED MODE BEHAVIOR&quot; MODEL NAME NLGEOM NSET OFFSET OP ORIENTATION PAIR PART PENALTY POISSON POWER PROPERTIES RESET RTOL SLAVE &quot;SMALL SLIDING&quot; &quot;SRATE FACTOR&quot; STABILIZE &quot;STACK DIRECTION&quot; &quot;STRAIN RATE REGULARIZATION&quot; SUMMARY SYMM SYSTEM &quot;THICKNESS MODULUS&quot; &quot;TYPE&quot; UNSYMM VARIABLE= WRITE TABLE</Keywords>
+            <Keywords name="Keywords6">&quot;*PROPERTY TABLE&quot;</Keywords>
+            <Keywords name="Keywords7">&quot;*USER DEFINED FIELD&quot; &quot;*USER ELEMENT&quot; &quot;*USER OUTPUT VARIABLES&quot; &quot;*USER MATERIAL&quot; &quot;*DEPVAR&quot;</Keywords>
+            <Keywords name="Keywords8">UVARM SDV SSAVG FV</Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="&#xE290;&#x9308;&#x0201;" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="0080FF" bgColor="FFFFFF" fontName="&#x5A32;&#xC17C;&#x0F00;&#x8000;&#x0001;" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="9" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="004080" bgColor="FFFFFF" fontName="&#x1E6C;&#x807C;&#x0001;&#x0014;&#xB2F0;&#x90A2;&#x0201;" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="008000" bgColor="FFFFFF" fontName="&#xFFFF;&#xFFFF;&#xFFFF;&#xFFFF;&#x0001;" fontStyle="5" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="A52A2A" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontName="&#xDB4F;&#xC13F;&#x0F00;&#x8000;&#x4AC0;&#xB236;&#x7FF8;" fontStyle="5" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="0080C0" bgColor="FFFFFF" fontName="lScrollBar" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="008B8B" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFF00" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF00FF" bgColor="FFFFFF" fontName="&#x5570;&#xE0AC;&#x7FF8;" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="A52A2A" bgColor="FFFFFF" fontName="&#x71E2;&#xC118;&#x1DDC;&#x8000;&#x2020;&#x2020;&#x2020;&#x2020;&#x2020;&#x2020;&#x2020;&#x2020;&#x2020;&#x2020;&#x2020;&#x2020;&#x6568;&#x706C;&#x223D;&#x756E;&#x626D;&#x7265;&#x6F20;&#x2066;&#x6F63;&#x726F;&#x6964;&#x616E;&#x6574;&#x2273;)&#x000A; file (*.h;*.hh;*.hpp;*.hxx;*.cp&#x6206;&#x2A5B;&#xDE67;&#x1811;&#xDDB0;&#x92F3;&#x0201;" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="7" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="00008B" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="80FFFF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="50593536" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="FF00FF" bgColor="FFFFFF" fontName="&#x000F;" fontStyle="0" nesting="117702655" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="4" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
